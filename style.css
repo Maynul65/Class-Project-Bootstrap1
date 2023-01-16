@@ -1,0 +1,117 @@
+.img{
+    position: absolute;
+}
+
+.text-center{
+    color: aliceblue;
+}
+.form-label{
+    color: aliceblue;
+}
+
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(24, 19, 19);
+}
+.about img{
+    height: auto;
+    width: 430px;
+
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgba(174, 185, 243, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: rgb(234, 121, 121);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(234, 121, 121);
+    cursor: pointer;
+}
+.team-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.image-section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.team img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+.Member{
+    padding-top: 5%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.Team-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.main{
+    text-align: center;
+}
+.team{
+    padding: 80px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.meraj{
+    border-radius: 20px;
+}
